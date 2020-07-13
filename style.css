@@ -1,0 +1,51 @@
+body {
+  font-size: 2em;
+  color: #444;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-top: 20vh;
+  font-weight: 300;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  margin: 0.5rem;
+  border-radius: 10px;
+  border-width: 2px;
+  background-color: #eee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-style: solid;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition-duration: 0.07s;
+}
+
+button:focus {
+  outline: none;
+  border-color: lightskyblue;
+}
+
+#results {
+  font-size: 1.5rem;
+  margin: 20px auto;
+}
+
+table {
+  margin: 20px auto;
+}
+
+thead {
+  color: grey;
+}
+
+td {
+  padding: 0.5em;
+}
+
+#play-again-button {
+  margin-top: 1em;
+  font-size: 1.2rem;
+}
